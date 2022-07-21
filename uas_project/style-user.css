@@ -1,0 +1,162 @@
+body{
+  background-color: #e7e7e7;
+}
+.banner{
+  background-color: black;
+}
+
+.banner img{
+  height: 50px;
+  width: 150px;
+  margin-left: 45%;
+}
+.banner a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  float: right;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+.navi{
+  border-top: 1px solid white;
+  overflow: hidden;
+  background-color: black;
+}
+.navi a{
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+  font-family: sans-serif;
+}
+.drop a{
+  position: relative;
+  display: inline-block;
+}
+.down a{
+  display: none;
+  position: absolute;
+  padding: 5px;
+  z-index: 1;
+}
+.drop :hover .down{
+  display: block;
+}
+.navi a:hover{
+  background-color: grey;
+  color: white;
+}
+.search{
+  margin-top: 5px; 
+  text-align: right;
+}
+.search input{
+  border-radius: 12px;
+    width: 400px;
+}
+.search button{
+  width: 50px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+main{
+  box-sizing: border-box;
+}
+.wrap{
+  float: left;
+  padding: 5px;
+}
+.left{
+  width: 70%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+.right{
+  width: 28.5%;
+}
+.layout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.item{
+  padding: 10px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 10px;
+}
+.item img{
+  height: 150px;
+  width: 150px;
+  box-shadow: 0px 0px 5px black;
+}
+.item img:hover{
+  border: 1px solid #777;
+}
+.produk{
+  font-weight: bold;
+}
+.sidebar img{
+  padding: 5px;
+  padding-top: 5px;
+  height: 400px;
+  width: 370px;
+  box-shadow: 5px 10px 18px #888888;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  height: 15%;
+}
+.colom{
+  padding: 10px;
+  column-count: 3;
+  column-gap: 100px;
+  color: white;
+  text-align: center;
+}
+.help{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.help li{
+  padding-top: 5px;
+  list-style: none;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.help li a{
+  color: white;
+  text-decoration: none;
+}
+.help li a:hover{
+  background-color: grey;
+}
+.paymentlogo img{
+  height: 100px;
+  width: 300px;
+}
+.copy{
+  padding-bottom: 5px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.us{
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.as{
+  padding: 5px;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 10px;
+}

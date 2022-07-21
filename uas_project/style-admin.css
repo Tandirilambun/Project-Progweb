@@ -1,0 +1,254 @@
+body{
+    background-color: #e7e7e7;
+  }
+  .banner{
+    background-color: black;
+  }
+  .banner img{
+    height: 50px;
+    width: 150px;
+    margin-left: 45%;
+  }
+  .banner a{
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    float: right;
+    padding-right: 100px;
+    padding-top: 20px;
+  }
+  .navi{
+    border-top: 1px solid white;
+    overflow: hidden;
+    background-color: black;
+  }
+  table{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding-bottom: 20px;
+  }
+  th, td{
+    border-bottom: 2px solid black;
+  }
+  .navi a{
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px 100px;
+    font-family: sans-serif;
+  }
+  .drop a{
+    position: relative;
+    display: inline-block;
+  }
+  .down a{
+    display: none;
+    position: absolute;
+    padding: 5px;
+    z-index: 1;
+  }
+  .drop :hover .down{
+    display: block;
+  }
+  .navi a:hover{
+        background-color: grey;
+        color: white;
+  }
+  #breadcrumb{
+      columns: 2;
+  }
+  .crumb ul{
+      list-style: none;
+  }
+  .crumb ul>li{
+      display: inline;
+  }
+  .crumb ul>li+li:before {
+    color: black;
+    content: "/";
+  }
+  .crumb ul>li a{
+      text-decoration: none;
+      color: black;
+      font-family: sans-serif;
+      font-size: 10px;
+  }
+  .crumb ul>li a:hover{
+      text-decoration: underline;
+  }
+  .search{
+      padding-top: 10px;
+      margin-top: 5px; 
+       text-align: right;
+  }
+  .search input{
+      border-radius: 12px;
+        width: 400px;
+  }
+  .search button{
+    width: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  main{
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .wrap{
+    float: left;
+    padding: 5px;
+  }
+  .left{
+    width: 45%;
+    position: relative;
+  }
+  .right{
+    width: 50%;
+  }
+  .layout:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .left img{
+      margin-left: 50px; 
+      margin-bottom: 20px;
+      padding: 5px;
+      height: 500px;
+      width: 500px;
+      box-shadow: 5px 10px 18px #888888;
+  }
+  .overlay{
+      position: absolute;
+      opacity: 0;
+      top: 0;
+        bottom: 0;
+       left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+      transition: .5s ease;
+  }
+  .left:hover .overlay{
+      opacity: 1;
+  }
+  .overlay img{
+      margin-left: 50px; 
+      margin-bottom: 20px;
+      padding: 5px;
+      height: 500px;
+      width: 500px;
+      box-shadow: 5px 10px 18px #888888;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(1%, 1%);
+  }
+  .jud{
+      text-align: justify;
+      font-family: sans-serif;
+      font-size: 30px;
+  }
+  .rate img{
+      padding-top: 10px;
+      height: 20px;
+      width: 100px;
+  }
+  .rate>span{
+      font-family: sans-serif;
+      text-align: justify;
+      font-size: 10px;
+  }
+  .detail{
+      padding-top: 10px;
+  }
+  .list{
+      font-family: sans-serif;
+      text-align: justify;
+      font-size: 15px;	
+  }
+  .list li{
+      list-style: initial;
+  }
+  .price{
+      font-family: sans-serif;
+  }
+  .option{
+      text-align: justify;
+      word-spacing: 80px;
+  }
+  .cart{
+      padding-top: 20px;
+      text-align: center;
+      word-spacing: 10px;
+  }
+  .but1{
+      width: 250px;
+      border-radius: 15px;
+    cursor: pointer;
+  }
+  .but1:hover{
+      background-color: darkorange;
+      transition-duration: 0.5s;
+  }
+  .but2{
+    width: 250px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .but2:hover{
+      background-color: darkorange;
+      transition-duration: 700ms;
+  }
+  footer{
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    margin-top: 21%;
+  }
+  .colom{
+    padding: 10px;
+    column-count: 3;
+    column-gap: 100px;
+    color: white;
+    text-align: center;
+  }
+  .help{
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  .help li{
+    padding-top: 5px;
+    list-style: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+  .help li a{
+    color: white;
+    text-decoration: none;
+  }
+  .help li a:hover{
+    background-color: grey;
+  }
+  .paymentlogo img{
+    height: 100px;
+    width: 300px;
+  }
+  .copy{
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+  .us{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .as{
+    padding: 5px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 10px;
+  }
